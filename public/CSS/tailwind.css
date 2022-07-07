@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.emojis{
+
+    @apply text-xl text-gray-300;
+
+}
+.margin0auto{
+
+    margin: 0 auto;
+
+}
+.txtbox{
+
+    @apply outline-none text-gray-300 bg-gray-600 rounded p-2 mt-6 shadow-sm;
+
+}
+.home-nav{
+
+    @apply p-4 h-14 w-full flex justify-between fixed bg-slate-800 opacity-90 shadow-sm z-50;
+
+}
+.home-nav li{
+
+    @apply ml-4 text-yellow-50 hover:text-yellow-100 pb-1 hover:border-b border-yellow-200 transition ease-in-out;
+
+}
+
+.hero{
+
+    @apply w-full text-center py-60 px-6;
+
+}
+.hero-backgroundimg{
+
+    @apply w-full -z-10 absolute blur-sm overflow-hidden;
+
+}
+
+.gadgets-ul{
+
+    @apply absolute right-0 top-14 bg-gray-700 w-24 text-sm text-center shadow-sm rounded-sm;
+
+}
+.gadgets-ul li{
+
+    @apply cursor-pointer hover:bg-gray-800 p-2;
+
+}
+
+.emojis-ul{
+
+
+
+}
+.emojis-ul li{
+
+    @apply text-3xl;
+
+}
